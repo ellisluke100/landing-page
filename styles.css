@@ -9,7 +9,7 @@ body {
 }
 
 .header-container {
-    background-color: blue;
+    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -33,18 +33,64 @@ body {
     color: white;
 }
 
-.top-segment-container {
+.segment-container {
     display: flex;
-    background-color: red;
     height: 250px;
     justify-content: center;
     align-items: center;
+}
+
+.top-segment {
+    background-color: red;
+}
+
+.second-segment {
+    background-color: green;
 }
 
 .segment-content-container {
     display: flex;
     width: 75%;
     justify-content: center;
+}
+
+.second-segment-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.second-segment-header-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+
+}
+
+.card-image {
+    height: 75px;
+    width: 75px;
+    border: 1px solid blue;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.card-caption-text {
+    max-width: 75px;
+    font-size: 12px;
 }
 
 .top-segment-text-and-button {
