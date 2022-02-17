@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    width: 75%;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 1vw;
+    margin: 0;
+}
+
+.header-link-item {
+    color: white;
+}
+
+.top-segment-container {
+    display: flex;
+    background-color: red;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment-content-container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.top-segment-text-and-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-segment-hero-text {
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    flex-wrap: wrap;
+}
+
+.top-segment-subtext {
+    max-width: 20rem;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-segment-image {
+    background-color: blue;
+    width: 50%;
+}
+
+.top-segment-sign-up-button {
+    background-color: purple;
+    width: 5rem;
+}
+
+button.top-segment-sign-up-button:hover {
+    background-color: blue;
+}
