@@ -1,127 +1,186 @@
+/* GENERAL */
+
 body {
-    margin: 0;
+    margin: 0px;
 }
 
-.landing-page-container {
+.page-container {
     display: flex;
     flex-direction: column;
-
-}
-
-.header-container {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 0;
-    width: 75%;
-}
-
-.header-links {
-    display: flex;
-    list-style: none;
-    gap: 1vw;
-    margin: 0;
-}
-
-.header-link-item {
-    color: white;
+    padding: 0px;
 }
 
 .segment-container {
+    height: 400px;
+    margin: 0px;
     display: flex;
-    height: 250px;
     justify-content: center;
     align-items: center;
 }
 
-.top-segment {
-    background-color: red;
-}
-
-.second-segment {
-    background-color: green;
-}
-
-.segment-content-container {
+.content-container {
     display: flex;
     width: 75%;
-    justify-content: center;
 }
 
-.second-segment-content-container {
+/* HEADER */
+
+.header-container {
+    background-color: brown;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-
 }
 
-.second-segment-header-text {
-    font-size: 30px;
+.header-content {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.header-logo {
     font-weight: bold;
 }
 
-.cards {
+ul.header-link-container {
+    list-style: none;
     display: flex;
     gap: 10px;
+    margin: 0px;
+}
 
+/* TOP SEGMENT */
+
+.content-container.top-segment {
+    gap: 10px;
+}
+
+.segment-container.top-segment {
+    background-color: grey;
+}
+
+.hero-text.top-segment {
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 20rem;
+}
+
+.sub-text.top-segment {
+    max-width: 20rem;
+}
+
+.sign-up-button.top-segment {
+    background-color: aqua;
+    width: 4rem;
+}
+
+.text-and-button-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.image.top-segment {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+/* SECOND SEGMENT */
+
+.heading-text.second-segment {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.content-container.second-segment {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
 }
 
 .card-image {
-    height: 75px;
-    width: 75px;
-    border: 1px solid blue;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: red;  
 }
 
 .card-caption-text {
-    max-width: 75px;
+    max-width: 80px;
     font-size: 12px;
 }
 
-.top-segment-text-and-button {
-    display: flex;
+.segment-container.second-segment {
+    background-color: lightgrey;
+}
+
+/* THIRD SEGMENT */
+
+.segment-container.third-segment {
+    background-color: lightgreen;
+}
+
+.content-container.third-segment {
     flex-direction: column;
 }
 
-.top-segment-hero-text {
+.quote-text {
+    font-style: italic;
+}
+
+.quoted-person-text {
     font-weight: bold;
-    color: white;
-    font-size: 35px;
-    flex-wrap: wrap;
+    align-self: end;
 }
 
-.top-segment-subtext {
-    max-width: 20rem;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+/* FOURTH SEGMENT */
+
+.segment-container.fourth-segment {
+    height: 200px;
+    background-color: lightblue;
 }
 
-.top-segment-image {
+.content-container.fourth-segment {
     background-color: blue;
-    width: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
 }
 
-.top-segment-sign-up-button {
-    background-color: purple;
-    width: 5rem;
+.text.fourth-segment {
+    color: white;
 }
 
-button.top-segment-sign-up-button:hover {
+.heading-text.fourth-segment {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-button.fourth-segment {
     background-color: blue;
+    height: 1.5rem;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer-container {
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    color: white;
 }

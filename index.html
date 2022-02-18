@@ -5,51 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Landing Page</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="landing-page-container">
+    <div class="page-container">
+        <!-- HEADER -->
         <div class="header-container">
-            <div class="header">
-                <div class="header-logo">Header logo</div>
-                <ul class="header-links">
-                    <li class="header-link-item">header link one</li>
-                    <li class="header-link-item"> header link two</li>
-                    <li class="header-link-item">header link three</li>
+            <div class="header-content">
+                <div class="header-logo"> Header logo </div>
+                <ul class="header-link-container">
+                    <li class="header-link"> Link 1 </li>
+                    <li class="header-link"> Link 2 </li>
+                    <li class="header-link"> Link 3 </li>
                 </ul>
             </div>
         </div>
-    <div class="segment-container top-segment">
-        <div class="segment-content-container">
-            <div class="top-segment-text-and-button">
-                <div class="top-segment-hero-text">This website is awesome</div>
-                <div class="top-segment-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad? Non iusto nulla eius officia porro veniam explicabo, totam quisquam?</div>
-                <button class="top-segment-sign-up-button">Sign up</button>
+
+        <!-- TOP SEGMENT-->
+        <div class="segment-container top-segment">
+            <div class="content-container top-segment">
+                <div class="text-and-button-content">
+                    <div class="hero-text top-segment"> This website is awesome</div>
+                    <div class="sub-text top-segment">This website has some subtext that goes here under the main title. It's 
+                        a smaller font and the color is lower contrast
+                    </div>
+                    <button class="sign-up-button top-segment"> Sign up </button>
+                </div>
+                <img class="image top-segment" src="" alt="image">
             </div>
-            <img class="top-segment-image" src="" alt="hello">
         </div>
-    </div>
-    <div class="segment-container second-segment">
-        <div class="segment-content-container second-segment-content-container">
-            <div class="second-segment-header-text"> Hello </div>
-            <div class="cards">
-                <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-caption-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-                </div>
-                <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-caption-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-                </div>
-                <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-caption-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-                </div>
-                <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-caption-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+
+        <!-- SECOND SEGMENT -->
+        <div class="segment-container second-segment">
+            <div class="content-container second-segment">
+                <div class="heading-text second-segment"> Some random information </div>
+                <div class="cards-container">
+                    <div class="card-and-text">
+                        <img class="card-image" src="" alt="">
+                        <div class="card-caption-text"> Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                    <div class="card-and-text">
+                        <img class="card-image" src="" alt="">
+                        <div class="card-caption-text"> Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                    <div class="card-and-text">
+                        <img class="card-image" src="" alt="">
+                        <div class="card-caption-text"> Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                    <div class="card-and-text">
+                        <img class="card-image" src="" alt="">
+                        <div class="card-caption-text"> Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <!-- THIRD SEGMENT -->
+        <div class="segment-container third-segment">
+            <div class="content-container third-segment">
+                <div class="quote-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eveniet perspiciatis reiciendis, quibusdam ratione consequuntur officiis quis tempora dolorum itaque?</div>
+                <div class="quoted-person-text">- Lorem, ipsum dolor</div>
+            </div>
+        </div>
+
+        <!-- FOURTH SEGMENT -->
+        <div class="segment-container fourth-segment">
+            <div class="content-container fourth-segment">
+                <div class="text fourth-segment">
+                    <div class="heading-text fourth-segment"> Call to action! It's time!</div>
+                    <div class="sub-text fourth-segment"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus.</div>
+                </div>
+                <button class="sign-up-button fourth-segment"> Sign Up </button>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-container">
+            <div class="copyright-text"> Copyright @ The Odin Project 2021</div>
         </div>
     </div>
 </body>
