@@ -20,13 +20,24 @@ body {
 
 .content-container {
     display: flex;
-    width: 75%;
+    width: 50%;
+}
+
+img {
+    border: 2px solid purple;
+    border-radius: 0.5rem;
+}
+
+button {
+    background-color: cyan;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 0.5rem;
 }
 
 /* HEADER */
 
 .header-container {
-    background-color: brown;
     display: flex;
     justify-content: center;
 }
@@ -57,7 +68,7 @@ ul.header-link-container {
 }
 
 .segment-container.top-segment {
-    background-color: grey;
+    background-color: lightgreen;
 }
 
 .hero-text.top-segment {
@@ -70,9 +81,8 @@ ul.header-link-container {
     max-width: 20rem;
 }
 
-.sign-up-button.top-segment {
-    background-color: aqua;
-    width: 4rem;
+.button.top-segment {
+    width: 6rem;
 }
 
 .text-and-button-content {
@@ -82,7 +92,6 @@ ul.header-link-container {
 }
 
 .image.top-segment {
-    background-color: blue;
     flex-grow: 1;
 }
 
@@ -114,7 +123,6 @@ ul.header-link-container {
 .card-image {
     height: 80px;
     width: 80px;
-    background-color: red;  
 }
 
 .card-caption-text {
@@ -123,13 +131,19 @@ ul.header-link-container {
 }
 
 .segment-container.second-segment {
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
+}
+
+.card-strong-text {
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 80px;
 }
 
 /* THIRD SEGMENT */
 
 .segment-container.third-segment {
-    background-color: lightgreen;
+    background-color: lightcyan;
 }
 
 .content-container.third-segment {
@@ -149,11 +163,11 @@ ul.header-link-container {
 
 .segment-container.fourth-segment {
     height: 200px;
-    background-color: lightblue;
+    background-color: lightgreen;
 }
 
 .content-container.fourth-segment {
-    background-color: blue;
+    background-color: lavender;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -162,18 +176,12 @@ ul.header-link-container {
 }
 
 .text.fourth-segment {
-    color: white;
+    color: black;
 }
 
 .heading-text.fourth-segment {
     font-size: 20px;
     font-weight: bold;
-}
-
-.sign-up-button.fourth-segment {
-    background-color: blue;
-    height: 1.5rem;
-    color: white;
 }
 
 /* FOOTER */
@@ -183,4 +191,9 @@ ul.header-link-container {
     text-align: center;
     background-color: grey;
     color: white;
+}
+
+.header-container,
+.footer-container {
+    background-color: green;
 }
